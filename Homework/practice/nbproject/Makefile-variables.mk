@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=sacitch_9thed_chap1_progproj7
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/sacitch_9thed_chap1_progproj7
+CND_ARTIFACT_NAME_Debug=practice
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/practice
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=sacitch9thedchap1progproj7.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/sacitch9thedchap1progproj7.tar
+CND_PACKAGE_NAME_Debug=practice.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/practice.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=sacitch_9thed_chap1_progproj7
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/sacitch_9thed_chap1_progproj7
+CND_ARTIFACT_NAME_Release=practice
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/practice
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=sacitch9thedchap1progproj7.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/sacitch9thedchap1progproj7.tar
+CND_PACKAGE_NAME_Release=practice.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/practice.tar
 #
 # include compiler specific variables
 #
