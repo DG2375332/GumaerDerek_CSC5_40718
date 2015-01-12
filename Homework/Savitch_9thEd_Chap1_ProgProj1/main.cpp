@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     //Declare Variables
     int op1,op2,sum=0,prod=1;
     //Prompt for the two operands
-    cout<<"Input 2 integers having a range of [-2^3],"<<endl;
+    cout<<"Input 2 integers"<<endl;
     cin>>op1>>op2;
     //Calculate the sum and the product
     sum=sum+op1;
