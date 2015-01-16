@@ -17,7 +17,7 @@ using namespace std;
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare 2 boolean variables
-    bool X,Y;
+    //bool X,Y;//declared and initialzed in for loops
     //Variables
     int a=2;
     int b=3;
@@ -26,73 +26,30 @@ int main(int argc, char** argv) {
     cout<<"X Y !X !Y X&&Y X||Y X^Y X^Y^Y ";
     cout<<"X^Y^X !(X||Y) !X&&!Y !(X&&Y) !X||!Y"<<endl;
     //Fill in the first row
-    X=true;Y=true;
-    cout<<(X?'T':'F')<<" ";
-    cout<<(Y?'T':'F')<<"  ";
-    cout<<(!X?'T':'F')<<"  ";
-    cout<<(!Y?'T':'F')<<"   ";
-    cout<<(X&&Y?'T':'F')<<"    ";
-    cout<<(X||Y?'T':'F')<<"   ";
-    cout<<(X^Y?'T':'F')<<"    ";
-    cout<<(X^Y^Y?'T':'F')<<"     ";//start
-    cout<<(X^Y^X?'T':'F')<<"       ";
-    cout<<(!(X||Y)?'T':'F')<<"     ";
-    cout<<(!X&&!Y?'T':'F')<<"       ";
-    cout<<(!(X&&Y)?'T':'F')<<"       ";
-    cout<<(!X||!Y?'T':'F')<<"      ";
-    cout<<endl;
-    //Fill in the second row
-    Y=false;
-    cout<<(X?'T':'F')<<" ";
-    cout<<(Y?'T':'F')<<"  ";
-    cout<<(!X?'T':'F')<<"  ";
-    cout<<(!Y?'T':'F')<<"   ";
-    cout<<(X&&Y?'T':'F')<<"    ";
-    cout<<(X||Y?'T':'F')<<"   ";
-    cout<<(X^Y?'T':'F')<<"    ";
-    cout<<(X^Y^Y?'T':'F')<<"     ";//start
-    cout<<(X^Y^X?'T':'F')<<"       ";
-    cout<<(!(X||Y)?'T':'F')<<"     ";
-    cout<<(!X&&!Y?'T':'F')<<"       ";
-    cout<<(!(X&&Y)?'T':'F')<<"       ";
-    cout<<(!X||!Y?'T':'F')<<"      ";
-    cout<<endl;
-    //Fill in the third row
-    X=false;
-    cout<<(X?'T':'F')<<" ";
-    cout<<(Y?'T':'F')<<"  ";
-    cout<<(!X?'T':'F')<<"  ";
-    cout<<(!Y?'T':'F')<<"   ";
-    cout<<(X&&Y?'T':'F')<<"    ";
-    cout<<(X||Y?'T':'F')<<"   ";
-    cout<<(X^Y?'T':'F')<<"    ";
-    cout<<(X^Y^Y?'T':'F')<<"     ";//start
-    cout<<(X^Y^X?'T':'F')<<"       ";
-    cout<<(!(X||Y)?'T':'F')<<"     ";
-    cout<<(!X&&!Y?'T':'F')<<"       ";
-    cout<<(!(X&&Y)?'T':'F')<<"       ";
-    cout<<(!X||!Y?'T':'F')<<"      ";
-    cout<<endl;
-    //Fill in the fourth row
-    Y=true;
-    cout<<(X?'T':'F')<<" ";
-    cout<<(Y?'T':'F')<<"  ";
-    cout<<(!X?'T':'F')<<"  ";
-    cout<<(!Y?'T':'F')<<"   ";
-    cout<<(X&&Y?'T':'F')<<"    ";
-    cout<<(X||Y?'T':'F')<<"   ";
-    cout<<(X^Y?'T':'F')<<"    ";
-    cout<<(X^Y^Y?'T':'F')<<"     ";//start
-    cout<<(X^Y^X?'T':'F')<<"       ";
-    cout<<(!(X||Y)?'T':'F')<<"     ";
-    cout<<(!X&&!Y?'T':'F')<<"       ";
-    cout<<(!(X&&Y)?'T':'F')<<"       ";
-    cout<<(!X||!Y?'T':'F')<<"      \n";
-    cout<<endl;
+    for(int X=1;X>=0;X--){
+        for(int Y=1;Y>=0;Y--){
+            cout<<(X?'T':'F')<<" ";
+            cout<<(Y?'T':'F')<<"  ";
+            cout<<(!X?'T':'F')<<"  ";
+            cout<<(!Y?'T':'F')<<"   ";
+            cout<<(X&&Y?'T':'F')<<"    ";
+            cout<<(X||Y?'T':'F')<<"   ";
+            cout<<(X^Y?'T':'F')<<"    ";
+            cout<<(X^Y^Y?'T':'F')<<"     ";//start
+            cout<<(X^Y^X?'T':'F')<<"       ";
+            cout<<(!(X||Y)?'T':'F')<<"     ";
+            cout<<(!X&&!Y?'T':'F')<<"       ";
+            cout<<(!(X&&Y)?'T':'F')<<"       ";
+            cout<<(!X||!Y?'T':'F')<<"      ";
+            cout<<endl;
+        }
+    }
+
     
     //Show values for swap
     cout<<"A = "<<a<<endl;
     cout<<"B = "<<b<<endl;
+
     //Swap
     a=b;
     b=temp;
