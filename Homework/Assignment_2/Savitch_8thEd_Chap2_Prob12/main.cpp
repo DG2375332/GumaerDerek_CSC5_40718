@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: Dr Mark E. Lehr *
+ * Author: Derek Gumaer
  * Created on January 13, 2015, 10:15 AM
  * Purpose: Babylonian Square root calculator
  */

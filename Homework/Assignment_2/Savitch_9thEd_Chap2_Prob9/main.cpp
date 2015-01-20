@@ -1,8 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Derek Gumaer
- * Created on January 15, 2015, 7:54 PM
- * Purpose: Chapter 2 problem 9
+ * Created on January 15, 2015, 7:51 PM
  */
 
 //System Libraries
@@ -21,7 +20,7 @@ int main(int argc, char** argv) {
     //Declare variables
     int input;
     int sum=0,sumPos=0,sumNeg=0,sumEven=0,sumOdd=0;
-    //Promt for an input and sum
+    //Prompt for an input and sum
     for(int count=1;count<=10;count++){
         cout<<"Enter an integer!"<<endl;
         cin>>input;
@@ -37,7 +36,7 @@ int main(int argc, char** argv) {
     cout<<"The Negative Sum = "<<setw(4)<<sumNeg<<endl;
     cout<<"The Even Sum =     "<<setw(4)<<sumEven<<endl;
     cout<<"The Odd Sum =      "<<setw(4)<<sumOdd<<endl;
-    //Exit stage right!
+    //Exit Stage right!
     return 0;
 }
 
